@@ -2,12 +2,12 @@ import React from 'react';
 
 const Portfolio = () => {
   const portfolioItems = [
-    { id: 1, img: "assest/img/portfolio/cabin.png", target: "#portfolioModal1" },
-    { id: 2, img: "assest/img/portfolio/cake.png", target: "#portfolioModal2" },
-    { id: 3, img: "assest/img/portfolio/circus.png", target: "#portfolioModal3" },
-    { id: 4, img: "assest/img/portfolio/game.png", target: "#portfolioModal4" },
-    { id: 5, img: "assest/img/portfolio/safe.png", target: "#portfolioModal5" },
-    { id: 6, img: "assest/img/portfolio/submarine.png", target: "#portfolioModal6" },
+    { id: 1, img: "src/assets/img/portfolio/cabin.png", target: "#portfolioModal1" },
+    { id: 2, img: "src/assets/img/portfolio/cake.png", target: "#portfolioModal2" },
+    { id: 3, img: "src/assets/img/portfolio/circus.png", target: "#portfolioModal3" },
+    { id: 4, img: "src/assets/img/portfolio/game.png", target: "#portfolioModal4" },
+    { id: 5, img: "src/assets/img/portfolio/safe.png", target: "#portfolioModal5" },
+    { id: 6, img: "src/assets/img/portfolio/submarine.png", target: "#portfolioModal6" },
   ];
 
   return (
