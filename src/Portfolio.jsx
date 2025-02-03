@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img1 from './assets/img/portfolio/cabin.png';
 const Portfolio = () => {
   const portfolioItems = [
     { id: 1, img: "src/assets/img/portfolio/cabin.png", target: "#portfolioModal1" },
@@ -31,7 +31,7 @@ const Portfolio = () => {
                     <i className="fas fa-plus fa-3x"></i>
                   </div>
                 </div>
-                <img className="img-fluid" src={item.img} alt="..." />
+                <img className="img-fluid" src={img1} alt="..." />
               </div>
             </div>
           ))}
