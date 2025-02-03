@@ -8,14 +8,30 @@ import './index.css';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
+import { Route, Routes } from 'react-router-dom';
 function App() {
     return (
         <div id="page-top">
             <CustomNavbar />
+
+
             <Header />
-            <Portfolio />
-            <About />
-            <Contact />
+
+
+
+            <Routes>
+           <Route path='/' element={ <Portfolio />}></Route>
+           <Route path='/Portfolio' element={ <Portfolio />}></Route>
+           <Route path='/About' element={  <About />}></Route>
+           <Route path='/Contact' element={ <Contact />}></Route>
+           
+           
+           
+            
+            </Routes>
+
+
+
             <Footer />
             { }
         </div>

@@ -1,6 +1,7 @@
 // Navbar.js
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const CustomNavbar = () => {
   return (
@@ -12,9 +13,11 @@ const CustomNavbar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="navbarResponsive">
           <Nav className="ms-auto">
-            <Nav.Link href="#portfolio" className="py-3 px-0 px-lg-3 rounded">Portfolio</Nav.Link>
-            <Nav.Link href="#about" className="py-3 px-0 px-lg-3 rounded">About</Nav.Link>
-            <Nav.Link href="#contact" className="py-3 px-0 px-lg-3 rounded">Contact</Nav.Link>
+
+           
+            <Nav.Link as={Link} to={'/Portfolio'} className="py-3 px-0 px-lg-3 rounded">Portfolio</Nav.Link>
+            <Nav.Link as={Link} to={'/About'} href="#about" className="py-3 px-0 px-lg-3 rounded">About</Nav.Link>
+            <Nav.Link as={Link} to={'/Contact'} href="#contact" className="py-3 px-0 px-lg-3 rounded">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
