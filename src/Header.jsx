@@ -1,4 +1,5 @@
 import React from 'react';
+import img from './assets/img/avataaars.svg';
 
 const Header = () => {
   return (
